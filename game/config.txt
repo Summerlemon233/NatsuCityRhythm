@@ -1,0 +1,7 @@
+Game_name:夏与城之韵 -夏-=true;
+Game_key:f839d8333c58e1;
+Title_img:mainbg.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Description:夏天。;
+Package_name:natsu_aocity;
