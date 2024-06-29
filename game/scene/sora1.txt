@@ -1,0 +1,71 @@
+changeBg:street1.png;
+changeFigure:sora1.png;
+:我和空并肩走在商业街上，感觉已经好久没有这样两个人一起悠闲地散步了。 -fontSize=default;
+空:对了，我有件事想问您。 -fontSize=default;
+{name}:想问我什么啊？那么一本正经的。 -fontSize=default;
+空:您有什么不爱吃的东西吗？ -fontSize=default;
+{name}:不爱吃的东西？emmm，没什么特别不爱吃的…… -fontSize=default;
+空:那有吃了会过敏的东西吗？ -fontSize=default;
+{name}:目前看来，没有。 -fontSize=default;
+空:喜欢吃什么呢？ -fontSize=default;
+:她为什么想到要问这些呢？感觉也不是随口一说。 -fontSize=default;
+:好奇怪。我想不出什么理由。 -fontSize=default;
+{name}:最喜欢吃的应该还是肉吧。 -fontSize=default;
+空:那喜欢的蔬菜呢？ -fontSize=default;
+{name}:大概比较喜欢应季蔬菜吧。 -fontSize=default;
+空:好的，我明白了。 -fontSize=default;
+事情已经办完了。今天谢谢啦。来，请收下这个吧。 -fontSize=default;
+:说着，她递给我一个纸袋。 -fontSize=default;
+:这个袋子…… -fontSize=default;
+{name}:我还记得。 -fontSize=default;
+这东西我可喜欢了。 -fontSize=default;
+空:这是您来之前买的，所以可能有点凉了。 -fontSize=default;
+{name}:没事，这家的烤鱼凉了也好吃。 -fontSize=default;
+我兴冲冲地从袋子里拿出来一份，从尾巴那端开始吃了起来。 -fontSize=default;
+嚼嚼……好吃。 -fontSize=default;
+是从尾巴开始吃的呢。 -fontSize=default;
+空:是从尾巴开始吃的呢。 -fontSize=default;
+嗯，因为—— -fontSize=default;
+我正打算把另一半掰给空。 -fontSize=default;
+{name}: 我想分一半给你。来尝尝—— -fontSize=default;
+:可是—— -fontSize=default;
+空:啊呜。 -fontSize=default;
+:她没等我说完，就一口咬住了我手里的烤鱼片。 -fontSize=default;
+空:嚼嚼…… -fontSize=default;
+唔……鱼身这里还是温乎的呢。 -fontSize=default;
+她品尝着我手中的烤鱼，把脸凑得很近。 -fontSize=default;
+空:比起尾巴，还是这种地方好吃呢。 -fontSize=default;
+:她笑着说道。 -fontSize=default;
+空:来，请尝尝鱼头这里。这家店的鱼头还是挺不错的。 -fontSize=default;
+{name}:啊，嗯…… -fontSize=default;
+:我又吃了一口烤鱼。 -fontSize=default;
+{name}:嚼嚼…… -fontSize=default;
+:她在极近的距离上望着我。
+很久都没有移开视线。 -fontSize=default;
+看我吃烤鱼……那么有趣吗？ -fontSize=default;
+空:真是粗心呢。 -fontSize=default;
+:粗心？ -fontSize=default;
+{name}:诶？为什么？ -fontSize=default;
+空:没什么。如果愿意的话，我当然也不会介意。就是这样。 -fontSize=default;
+{name}:什么啊，不就是请你吃了半个烤鱼嘛。
+空:烤鱼是我买给你的，给我的是其他东西。
+:说着，她走到了我身前。
+:我看不到她的脸，只能看到她的背影。
+空:那么今天就在此作别吧。明天见啦。
+{name}:嗯嗯，明天见。
+:我这时才意识到自己的迟钝。
+:因为我看到空的耳根都红透了。
+空:我先走了！
+changeFigure: -next;
+:她跑了出去。
+
+:我目送着她的背影。
+:我还是第一次在那么近的距离上看到她的笑脸……
+:而光顾着看她的笑脸的我完全没有意识到。
+:我还没来得及掰，就把自己咬过的烤鱼给了心铃。
+:而她也直接吃了下去。
+:也就是说——
+{name}:间接接吻啊……
+:我刚才没意识到这一点。
+:这并不是直接接吻，不去在意好像也没什么……
+角色名，留空以继承上句:对话;

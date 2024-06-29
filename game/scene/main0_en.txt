@@ -1,0 +1,569 @@
+intro: Peking University | 2024 Spring Semester | "Introduction to Video Games" Final Project B | Based on WebGAL Game Engine | Author: Li Zhuoran, School of EECS -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+
+intro: The locations, characters, and events in this game are purely fictional and do not correspond to anything in the real world. | Any resemblance is purely coincidental. | Thank you for your understanding. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+
+intro: Encounters always come so suddenly, | whether the parties involved are expecting them or not. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+
+intro: We always laugh and talk about ordinary things, | innocently whiling away the time. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+
+intro: Naturally... | It's impossible to be mentally prepared for such an encounter. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+
+setAnimation: Choose animation file;
+
+intro: July 20th -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+
+getUserInput: name -title=Please enter your name here. -buttonText=OK;
+
+changeBg: railway.png -next -unlockname=Jinxia Railway;
+
+unlockCg: railway.png -name=Jinxia Railway;
+
+: Clank, clank. -fontSize=default;
+
+: I was lost in thought. -fontSize=default;
+
+:Brand new carriages, a tranquil environment, and lightning-fast speed –  -fontSize=default;
+:These have become synonymous with this great Eastern nation’s railway system. -fontSize=default;
+
+: Unfortunately, none of that applied here. -fontSize=default;
+changeBg: carriage.png;
+
+: This was the hard seat carriage of a traditional K-series train. -fontSize=default;
+
+: It truly lived up to its "traditional" title.
+
+: Not only was stopping a laborious process, but starting took forever too.
+
+: Looking around, I could only see old carriages built in the last century, vintage luggage racks and aisles, openable windows,
+
+: And my phone, completely drained of battery. -fontSize=default;
+
+: There was even a faded sign on the vertically opening window, written in an old typeface: “Do not throw anything out the window." -fontSize=default;
+
+{name}: Sigh…
+
+: I felt the train accelerating.
+
+: The wind blowing in from the window was refreshing.
+
+: It felt strangely nostalgic.
+
+: Well, it made sense –
+
+After all, that accident-prone tunnel finally had a parallel replacement. -fontSize=default;
+
+: Ten years ago, an ambitious high-speed railway project had prematurely included this plateau city in its grand plan. -fontSize=default;
+
+: But an earthquake and several torrential downpours had repeatedly tested the limits of the bridges and tunnels nestled between the mountains… -fontSize=default;
+
+The tunnel had collapsed, thankfully during the night. -fontSize=default;
+
+After much debate and no other choice, they had to reroute the railway, avoiding the area altogether and building a strange, meandering bridge instead. -fontSize=default;
+
+This little-known provincial capital, a small city on the western frontier of this Eastern nation, was finally once again connected to the high-speed rail network. -fontSize=default;
+
+Tourists, eager to explore this "hidden gem" they had discovered on their tiny screens, had snatched up all the high-speed train tickets as soon as they went on sale. -fontSize=default;
+
+And now I was left to regret not booking earlier. -fontSize=default;
+
+I rarely traveled far from home. -fontSize=default;
+
+When was the last time I had taken a green train? First grade? -fontSize=default;
+
+It wasn't entirely my fault, though. This had all happened so suddenly – -fontSize=default;
+
+changeFigure: sora1.png -left -next;
+
+setAnimation: enter-from-left -target=fig-left -next;
+
+???: Huh? -fontSize=default;
+
+: A girl's surprised voice interrupted my train of thought. -fontSize=default;
+
+She blinked her sleepy eyes open, seemingly noticing something unusual. -fontSize=default;
+
+Come to think of it, although I vaguely remembered someone new taking the seat opposite me at the last city, I hadn't paid much attention to who it was. -fontSize=default;
+
+???: Um... excuse me, where are we now? -fontSize=default;
+
+changeFigure: -next;
+
+: Let me think… | The last stop was Jincheng, and we just crossed the iron bridge… We should be approaching Xiazhen soon. -fontSize=default;
+
+changeFigure: sora1.png -left;
+
+???: Ah… that’s great! I didn’t miss my stop this time! -fontSize=default;
+
+: The girl's sleepy expression gradually shifted into one of relief, a faint blush creeping onto her cheeks. -fontSize=default;
+
+???: It’s not easy finding a youthful face amidst all the uncles and grandpas. Did you take the slow train because you couldn’t get tickets for the Jinjiang high-speed line? -fontSize=default;
+
+: While I was tempted to simply say “yes,” a wave of impulsiveness prompted me to abandon that practical answer. -fontSize=default;
+
+{name}: Actually, not really. It’s been a while since I’ve taken a regular train, so I thought I’d switch things up for a change…? -fontSize=default;
+
+???: I see… I travel by regular train quite often myself. Unlike the high-speed trains and airplanes, there’s a certain charm to the slower pace of a regular train. It feels more… “down to earth." -fontSize=default;
+
+And striking up conversations with fellow passengers can be quite interesting too. -fontSize=default;
+
+???: By the way, how may I address you? -fontSize=default;
+
+{name}: Ah, it’s nice to meet you. I’m {name}. -fontSize=default;
+
+???: What a sophisticated name. | I'm Sora. Pleased to meet you. -fontSize=default;
+
+: She seemed incredibly easygoing.
+
+: Her every word and gesture exuded elegance.
+
+: Perhaps it was a conscious effort to appear relaxed and put me at ease.
+
+Sora: Judging by your attire, are you headed to Xiazhen? -fontSize=default;
+
+{name}: Yes, I am. How did you guess? -fontSize=default;
+
+Sora: Perhaps it’s just a hunch… hehe, my sixth sense has always been rather accurate. | Your outfit has a distinct Xiazhen vibe to it. -fontSize=default;
+
+changeFigure: transparent.png -left;
+
+: A distinct Xiazhen vibe…? How should I even begin to describe that? -fontSize=default;
+
+changeBg: XIAZHEN.png -unlockname=Xiazhen;
+
+: Having been away from Xiazhen for a decade, it was difficult to piece together the fragmented memories I had of this small city. -fontSize=default;
+
+: Strong winds, dust, barren mountains –
+
+: Yellow and deeper shades of brown formed the base notes of Xiazhen's natural landscape back then. -fontSize=default;
+
+: Dirt roads, livestock carts, dilapidated sidewalks, simple mud houses, vendors hawking yogurt from their shoulder poles –
+
+: Every now and then, a boxy Santana would roar through the market, kicking up a cloud of dust. -fontSize=default;
+
+: Only when the wind and dust subsided momentarily could you see a sliver of blue in the sky –
+
+: A pure, deep blue, stretching from the horizon and disappearing behind the dark, rolling mountains, as if completely out of place. -fontSize=default;
+
+changeBg: carriage.png;
+
+changeFigure: sora_expressionless.png;
+
+: A pair of curious eyes snapped me out of my pointless reverie. -fontSize=default;
+
+Sora: Um… What are you thinking about? -fontSize=default;
+
+{name}: Ah, sorry about that. I tend to get lost in thought sometimes… -fontSize=default;
+
+: It’s been a long time since I’ve been back in Xiazhen. -fontSize=default;
+
+: Although I spent some of my childhood there, the details of the city have become a bit hazy in my memory. -fontSize=default;
+
+Sora: In that case, do you mind telling me why you're going to Xiazhen? I have a feeling you're not like most of the tourists flocking there. -fontSize=default;
+
+: Good question. -fontSize=default;
+
+: Why was I going to Xiazhen? -fontSize=default;
+
+: Was it because my parents had been transferred overseas for work?
+
+: No, there were obviously better options than this –
+
+{name}: I’m going to Xiazhen to reclaim my memories. -fontSize=default;
+
+: The girl seemed surprised by my somewhat melodramatic answer, a hint of confusion flashing across her face. -fontSize=default;
+
+: I let out a wry chuckle. -fontSize=default;
+
+{name}: Ten years is a long time, but also not that long. -fontSize=default;
+
+: Although I've grown accustomed to life in the bustling concrete jungle of the east, I still find myself drawn to the pure blue skies of Xiazhen for some reason. -fontSize=default;
+
+It was a twist of fate, really. -fontSize=default;
+
+{name}: With my parents working overseas now, I didn't really want to stay in my old city by myself. So I figured, why not spend the next two years of high school back in Xiazhen?
+
+{name}: I finished my first year of high school in my old city—it was an uneventful year, to say the least.
+
+Even after ten years of trying to fit in, the hustle and bustle of the big city still felt alienating to me. -fontSize=default;
+
+Sora: Hmm… That’s an uncommon choice. -fontSize=default;
+
+Sora: In my experience, it’s usually parents from smaller towns who complain about the laid-back, liberal education system in Xiazhen. They often send their children to the east for those “bootcamp” style, exam-oriented high schools. -fontSize=default;
+
+Sora: You seem to be going against the grain. -fontSize=default;
+
+Sora: But then again, spending three years immersed in freedom and relaxation isn’t necessarily a bad thing. It could be a refreshing change of pace. -fontSize=default;
+
+Sora: I, for one, despise those soul-crushing, factory-like schools.
+
+Sora: From what I’ve seen in the news, the stories about 6 am to 11 pm schedules, military-style management, and suppression of any form of entertainment don’t seem too far-fetched… -fontSize=default;
+
+{name}: You’re right. In reality, with the exception of the municipalities, many high schools have been transformed into exam factories.
+
+It’s as if the sole purpose of school has been reduced to preparing for exams. -fontSize=default;
+
+But it’s an unfortunate necessity. It’s not just the students with their dreams and aspirations who are suffocating, but also the teachers bound by strict attendance policies, performance-based evaluations, and the parents grappling with the anxieties of their children’s academic performance. -fontSize=default;
+
+Even on the one day off they get each month, parents feel obligated to make their kids attend online classes – -fontSize=default;
+
+They are all trapped in this relentless pursuit of higher scores, clinging onto the illusory dream of upward mobility through exams. -fontSize=default;
+
+Sora: Thankfully, Xiazhen and Bihai Province are an exception. -fontSize=default;
+
+Situated in a relative educational backwater, both students and teachers are spared from the pressures of this cutthroat competition. -fontSize=default;
+
+: Sora gave a wry smile. -fontSize=default;
+
+Sora: It’s ironic, isn't it? The lack of resources has inadvertently created an “oasis” when it comes to exams. Perhaps it’s a blessing in disguise. -fontSize=default;
+
+However, the Matthew effect is becoming increasingly apparent. The best and brightest, those who manage to rise above the limitations, are siphoned off to more developed regions, leaving the plateau and the mountains behind. -fontSize=default;
+
+So instead of benefiting Xiazhen, the talent nurtured here ends up contributing to the brain drain. -fontSize=default;
+
+Perhaps Xiazhen's growth and decline will reach a sort of dynamic equilibrium, eventually "stagnating" at some point in time, becoming a frozen museum in the flow of time. -fontSize=default;
+
+That's why it's admirable that you're doing the opposite—coming from a big city to Xiazhen. -fontSize=default;
+
+: I was quietly amazed by this girl's sharp insights. -fontSize=default;
+
+: While others our age were probably still preoccupied with dinner plans, sports, and reality TV shows, she was already analyzing my background from a sociological perspective. -fontSize=default;
+
+{name}: Based on what you’ve said, it seems like you have a very insightful perspective on society, Sora. -fontSize=default;
+
+: A faint blush appeared on Sora’s cheeks. -fontSize=default;
+
+Sora: You… You flatter me. -fontSize=default;
+
+: As we continued chatting, the scenery outside the window gradually slowed down. The endless fields of barley and rapeseed flowers disappeared from view. -fontSize=default;
+
+{name}: Are we almost there? -fontSize=default;
+
+Sora: Let me check… -fontSize=default;
+
+: Sora pulled out a small, sleek phone from her bag and began scrolling through a feed. -fontSize=default;
+
+: Her phone looked different from any model I had ever seen—it had a long, narrow design, a perfectly rectangular screen, and a white, frosted glass back that peeked through its case. -fontSize=default;
+
+Sora: It seems your judgment might be a little off—although the distance between Jincheng and Xiazhen is less than two hundred kilometers, we still have about two hours left on our journey. -fontSize=default;
+
+But there’s no need to fret. The journey itself can be just as enjoyable as the destination. -fontSize=default;
+
+: We locked eyes in the nearly empty carriage. -fontSize=default;
+
+: The day before my trip—
+
+: …
+
+{name}: It’s scorching.
+
+: I’m practically melting.
+
+: The sun wasn’t just bright; it was blinding.
+
+: Its rays beat down on me mercilessly.
+
+: Like melting gold on a hot stone—that was the perfect idiom to describe the current temperature.
+
+: Thankfully, I was traveling light, without a heavy suitcase to weigh me down.
+
+: For one thing, my family home in Xiazhen already had everything I needed.
+
+: For another, I didn’t want to bring the baggage of my past back with me.
+
+: I wanted Xiazhen to represent a fresh start.
+
+: And that required leaving old things behind.
+
+: So, I only had a small messenger bag containing my phone and wallet—
+
+: And a charger, just in case.
+
+: Sora, who was sitting in front of me now, seemed to be in a similar situation.
+
+: She also had a small, but seemingly full, messenger bag by her side.
+
+: Although, my predicament was arguably worse.
+
+: My phone was dead – which, in this day and age, practically meant being penniless.
+
+: I had been too trusting of the digital age and my own luck –
+
+: However, this train, with all its historical charm, didn’t seem to have any readily available power outlets.
+
+: Panic surged through me as I realized this.
+
+: There was only one thing I could do.
+
+{name}: Excuse me…
+
+{name}: My phone died.
+
+: Do you happen to have a portable charger?
+
+Sora: I don’t, actually—but it shouldn’t be a big deal, right…?
+
+Sora: You seem familiar with the area.
+
+{name}: I don’t have any cash on me either—
+
+{name}: So I might be out on the streets tonight.
+
+: A flicker of concern crossed the girl's face.
+
+Sora: My battery is running low too.
+
+Sora: But you’re in a tighter spot than I am. Don’t worry, I have a workaround—
+
+: She gestured for me to hand over my lifeless phone.
+
+: She gently took her phone out of its case and placed it face down on the table.
+
+: The pristine white ceramic back had a faint circular marking on it.
+
+Sora: Go ahead, place the back of your phone against this circle here.
+
+: ?
+
+: Even though I was born in the digital age and dabbled in tech occasionally,
+
+: I had never encountered such a peculiar method.
+
+{name}: Um, could you explain what this is?
+
+changeFigure: sora_evil.png;
+
+Sora: Hehe, it seems this is still a bit niche.
+
+: She flashed me a mischievous smile.
+
+Sora: How about this—I’ll keep you in suspense for now. Just put your phone on and see what happens.
+
+: Skeptical, I placed my phone on hers.
+
+: Nothing happened.
+
+: The silence stretched on.
+
+: I was just about to say something—
+
+Phone: Bzzzt.
+
+: Thankfully, my phone spoke up for me.
+
+: The screen flickered back to life, displaying the familiar lock screen that I hadn’t realized I missed so much.
+
+{name}: Whoa—
+
+{name}: That’s amazing!
+
+Sora: Hehe, no need to thank me just yet.
+
+Sora: You’ll need your passcode to unlock it, and I wouldn’t want to pry into your privacy.
+
+: The girl politely turned her head away, gazing out the window at the passing scenery.
+
+: The landscape outside had lost its dryness, the grays and yellows replaced by a more vibrant green unique to this season and towering mountains.
+
+: This newfound vitality was mainly due to the river that flowed eastward before us.
+
+: The train snaked its way through the narrow valley carved by the mountains and the river.
+
+: “Welcome to Bihai Province,” I thought to myself.
+
+: Although this was usually a phrase reserved for curious tourists—
+
+: Today, I wanted to welcome myself back to this land that held a special place in my heart.
+
+: Stop getting sidetracked, I told myself.
+
+: After all, I had more pressing matters to attend to.
+
+: Worried that my newly revived phone might lose its charge if separated from the mysterious circle, I carefully held onto both devices, my finger dancing across the screen as I entered my passcode.
+
+: Unlocked.
+
+: The small “4G” symbol appeared, blinking reassuringly on the screen. My phone had rejoined the digital world.
+
+: There was no deluge of notifications.
+
+: This was expected—not even a single advertisement popped up.
+
+: After all, I was used to being invisible in the digital forest.
+
+: Then, the phone beneath mine vibrated softly.
+
+{name}: Um, your phone’s ringing.
+
+: “Your phone”—
+
+: I wasn’t very good with second-person pronouns.
+
+: And it felt too forward to address her by her name so soon after meeting.
+
+Sora: Ah, thanks for letting me know.
+
+: Sora’s outstretched hand froze in midair.
+
+Sora: Wait, could you hand your phone over too?
+
+Sora: Otherwise, all our efforts will be wasted.
+
+: Come to think of it, she hadn’t actually explained how this phone-charging magic worked…
+
+: I handed her both phones, which were sandwiched back-to-back.
+
+: As someone used to a larger phone, I only now realized why hers seemed so “niche.”
+
+: It clearly wasn’t designed for multitasking—she seemed to be struggling a bit.
+
+: Thankfully, it didn’t take long.
+
+Sora: Okay, we’re good.
+
+{name}: Thanks a bunch, you’re a lifesaver.
+
+{name}: I might have actually been stranded without your help tonight.
+
+{name}: How can I ever repay you?
+
+Sora: Don’t mention it. It was no trouble at all.
+
+Sora: You probably figured it out already, but…
+
+Sora: This is reverse wireless charging. Luckily, your phone supports it too, otherwise I wouldn’t have been able to help.
+
+Sora: As long as both phones have a glass or ceramic back and built-in charging coils, they can share battery power.
+
+Sora: You just have to place them back-to-back, and voila, the dying one comes back to life.
+
+Sora: But this is just a temporary solution. My battery is running low too.
+
+: She showed me the red battery icon on her phone; it looked like it was about to hit single digits.
+
+: However, in the time we had been talking, my phone had charged to an acceptable level.
+
+: It wasn’t much, but it was enough for emergencies.
+
+{name}: This should be enough. Thank you so much.
+
+Sora: My phone’s about to die too, so how about we find a place to charge them once we get off the train?
+
+: I looked out the window.
+
+: Scattered houses began to appear, indicating that we were approaching our destination.
+
+: The sky was transitioning from azure to deep blue, with a pale yellow glow emerging in the distance.
+
+: According to my phone, it was already nightfall in the eastern cities, with twinkling lights dotting the urban landscape.
+
+: But here, in this remote corner of the world, the sun seemed determined to linger a little longer.
+
+{name}: It’s getting pretty late.
+
+{name}: I’m fine, but what about your family? Won’t they be worried?
+
+Sora: I’m staying by myself this summer—
+
+Sora: So it shouldn’t be a problem. I’ll just let them know.
+
+{name}: Sounds good.
+
+: The lights outside grew brighter.
+
+: In this in-between space of late afternoon and early evening, we, along with the old train, pulled into Xiazhen.
+
+Sora: We’re here!
+
+changeBg: platform.png;
+
+: This train's final destination wasn't Xiazhen.
+
+: Xiazhen was an important transfer station.
+
+{name}: The platform is packed!
+
+: Due to the influx of travelers heading to even higher altitudes for the summer holidays, this train was a temporary addition to accommodate the increased passenger flow.
+
+: Young backpackers waited on the platform, about to board the train at the edge of night,
+
+: Their destination: a small city on the roof of the world, which they would reach before the next nightfall.
+
+: We didn't have much to carry.
+
+: Sora led me through the throngs of people with their bulky luggage,
+
+: Towards a less crowded exit, a shortcut known only to her.
+
+Sora: So, what are you in the mood for?
+
+Sora: It’s dinner time.
+
+changeBg: square.png;
+
+: Ten years ago, Xiazhen station had been a small, unremarkable stop.
+
+: Now, it had been transformed into a modern, grand station with an Eastern architectural flair.
+
+: We walked side by side across the spacious square.
+
+Sora: If you can’t decide, how about some barbecue?
+
+: The girl turned and flashed me a smile.
+
+: The yak meat on the plateau was something truly special.
+
+{name}: Sounds good… Lead the way!
+
+: We crossed the square and entered a small alleyway with a distinct ethnic charm.
+
+: If the newly renovated train station represented Xiazhen's modernization,
+
+changeBg: alley.png -next;
+
+: Then this alley awakened the memories I had of it from a decade ago.
+
+: Walking on the stone-paved road, passing by fruit stalls, and watching as vendors sprinkled cumin powder on skewers of meat—it all felt so familiar.
+
+: I was home.
+
+: We eventually settled at an outdoor table.
+
+: The owner greeted us with a warm smile, offering us small plastic cups filled with salty butter tea.
+
+Sora: Grandpa, twenty skewers of lamb, please.
+
+Grandpa: You got it!
+
+: I also let the owner know about my current predicament.
+
+: A long power strip stretched from the brightly lit interior of the shop to the dimly lit outdoors. I fumbled with my charger, finally plugging it in.
+
+: My phone, now with a renewed sense of purpose, would accompany me home.
+
+: “I’m new in town. What would you recommend for the main course?”
+
+: Noodles were an integral part of Western cuisine.
+
+: We laughed and chatted about food, Xiazhen, and the future as we feasted on cumin- and chili-dusted skewers.
+
+: Out of courtesy, I offered to pay.
+
+{name}: My phone will be eternally grateful to you.
+
+{name}: It’s getting late. Let me check the address—
+
+: Before my arrival, I had arranged for relatives to clean up the old family house.
+
+: Hopefully, it wouldn’t be too much of a hassle settling in tonight.
+
+Sora: Thanks for the meal. I should be heading home too.
+
+: To our surprise, we discovered that we lived quite close to each other.
+
+: “I live in one of those early standalone houses built on the hillside.” -fontSize=default;
+
+: Xiazhen was one of the few cities in the East where standalone houses were the majority. -fontSize=default;
+
+: “It’s not too far from here,” she said, and we decided to walk together. -fontSize=default;
+
+(To be continued…)
