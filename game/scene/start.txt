@@ -1,5 +1,5 @@
 ; 初始场景，以及特效演示
-changeBg:mainbg.png;
+changeBg:mainbg.png -next;
 bgm:s_Title.mp3;
 unlockBgm:s_Title.mp3 -name=雲を追いかけて;
 

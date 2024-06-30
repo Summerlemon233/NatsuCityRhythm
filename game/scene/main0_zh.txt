@@ -7,12 +7,13 @@ setAnimation:选择动画文件;
 intro:7月20日 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 getUserInput:name -title=请在这里附上你的名字。 -buttonText=确定;
 changeBg:railway.png -next -unlockname=金夏铁路;
-unlockCg:railway.png -name=金夏铁路;
+unlockCg:railway.png -unlockname=金夏铁路;
 :哐啷哐啷。 -fontSize=default;
 :我在发呆。 -fontSize=default;
 :崭新的车厢、静谧的环境、飞驰的速度——这已经成为了这个东方大国的铁路代名词。 -fontSize=default;
 :可惜这里都没有。 -fontSize=default;
-changeBg:carriage.png;
+changeBg:carriage.png -unlockname=硬座车厢;
+unlockCg:carriage.png -name=硬座车厢;
 :这里是K字头传统火车的硬座车厢。 -fontSize=default;
 :真不愧是传统列车。
 :不但停车时颇费功夫，启动也要花很久。
@@ -128,6 +129,8 @@ changeFigure:sora_expressionless.png;
 虽然旅途漫漫，但或许享受旅途之中的这段时间也不失趣味。-audio (67).wav -fontSize=default;
 :我们在这几乎空无一人的车厢内对视着。 -fontSize=default;
 :旅行前一天——
+changeBg:east_station.png -unlockname:东部火车站 -next;
+changeFigure:transparent.png;
 :……
 {name}:好热。
 :热得快熟透了。
@@ -143,6 +146,8 @@ changeFigure:sora_expressionless.png;
 :这就需要抛弃陈旧的觉悟。
 :因此，我只携带了装有手机和钱包的小小挎包——
 :还带了充电器以防万一。
+changeBg:carriage.png -next;
+changeFigure:sora_smile.png -next;
 :现在坐在我面前的空似乎也差不多。
 :她身旁也只有一个玲珑但又鼓鼓囊囊的挎包。
 :不过似乎还是我的境地更危险一些。
@@ -169,7 +174,7 @@ changeFigure:sora_expressionless.png;
 :虽然生在这个信息时代，我也闲来无事稍稍研究过3C知识，
 :但我属实没有见过这样的奇怪操作。
 {name}:请教一下，可以解释一下这是在干什么呢？
-changeFigure:sora_evil.png;
+changeFigure:sora_expressionless.png;
 空:嘻嘻，看来这个还是比较小众呢。 -audio (43).wav
 :她狡黠地笑了笑。
 空:要不——我卖个关子，你先把手机放上看看。 -audio (44).wav
@@ -177,9 +182,12 @@ changeFigure:sora_evil.png;
 :没有反应。
 :空气沉默了。
 :我正想如何开口是好——
+changeFigure:transparent.png;
+changeBg:charge.png;
 手机:嗡嗡。
 :还好，我的手机替我说话了。
 :手机挣扎着点亮了屏幕，回到了虽然之前熟视无睹但现在却令人安心的锁屏页面。
+changeBg:carriage.png;
 {name}:欸——
 {name}:好神奇——！
 空:嘻嘻，暂时先不用感谢我。 -audio (45).wav
@@ -245,7 +253,7 @@ changeFigure:sora_smile.png;
 :外面的灯光多了起来。
 :在这午后与黄昏的交界处，我们连同这古老的列车驶入了夏镇市区。
 空:到啦！  -audio (68).wav  -fontSize=default;
-changeBg:platform.png;
+changeBg:platform.png -unlockname=夏镇站站台;
 :本次列车的终点站并不是夏镇。
 :夏镇也是一个重要的中转站。
 {name}:站台上人好多啊……
@@ -258,7 +266,7 @@ changeBg:platform.png;
 :走向一条不为人知的捷径出口。
 空:那么，想吃些什么呢？ -audio (61).wav
 空:现在也到饭点了。 -audio (62).wav -fontSize=default;
-changeBg:square.png;
+changeBg:square.png -unlockname=夏镇站;
 :十年前的夏镇站还是个小站。
 :经过改建，以及成为了一个东方风格、现代感十足的大站。
 :我们并排在空旷的广场上走着。
@@ -267,14 +275,15 @@ changeBg:square.png;
 changeFigure:sora1.png;
 :高原上的牛羊肉风味属实一绝。
 {name}:好诶……那就拜托带路啦。
+changeBg:alley.png -next;
 :我们穿过广场，走向一条富有民族风情的小巷。
 :要是说全新改建的火车站是夏镇现代化的体现，
-changeBg:alley.png -next;
 :那么这条小巷便激活了我留存在十年之前的记忆。
 :步行在石板路上，穿过街边的水果小摊，张望着大汉们为烤串上撒下孜然粉。
 :熟悉的感觉回来了。
 :我们最终坐在了一个露天的座位上。
 :老板笑着为我们递上塑料小杯内盛的咸熬茶。
+changeBg:restaurant.png -next;
 空:阿爷，请先来二十串羊肉串吧。 -audio (64).wav -fontSize=default;
 阿爷:好嘞！
 :我也向阿爷示意了现在的燃眉之急。
@@ -284,11 +293,14 @@ changeBg:alley.png -next;
 :面食是西部饮食的精髓。
 :我们笑着谈论着菜谱、夏镇以及未来，对着布满辣椒面和孜然的烤串大快朵颐。
 :出于礼貌，我付了钱。
+
 {name}:我的手机都会因此感谢你的呢。
 {name}:挺晚了。我看看现在的住址——
+
 :在我来之前，已经安排好亲戚帮忙清理了那座老宅。
 :希望今晚不会太过周折。
 空:谢谢款待。我也要回家啦。 -audio (65).wav 
+changeBg:home_lane.png -next -unlockname=夜间道路;
 :我们的住宅竟然出乎意料地相距不远。
 :我住在一所依山而建的早期独栋中。 -fontSize=default;
 :夏镇是东方少有独栋能占主要份额的城市。 -fontSize=default;
@@ -296,6 +308,7 @@ changeBg:alley.png -next;
 :听她说路不太远，我们便一同过去。 -fontSize=default;
 :跨过夏镇东部星星点点、各种色温混合的夜间，
 :我们向着南方的山峦进发。
+
 :灯光色温也逐渐固定起来，静谧的黑与路灯的白映照出白天不曾注意的绿植。
 :这是城郊一条有坡度的道路，从山腰一直延伸到山底。
 :和十年前不同，整齐的绿植和错落有致的现代住宅代替了农田与水渠，
@@ -303,12 +316,17 @@ changeBg:alley.png -next;
 :周围郁郁葱葱的白杨树在夏夜颇有氛围。
 :而空住在离路口不远处的多层复式住宅内。
 :我们沿着山路向上行进。
+changeBg:lane_night1.png -next -unlockname=夜间道路2;
 空:那么，就此别过吧。
 空:今天也是一次奇妙的经历呢。
 空:感觉我们之间聊得很投机。
 {name}:那么，希望我们后续还有机会会见。
 :我们达成了默契，没有刻意要对方的联系方式。
 {name}:好好休息吧。
+changeFigure:transparent.png -center;
 :我目送空消失在小区门口。
+:今天真是开了个好头。
+:虽然非常疲惫便是了——
+:我在口袋里翻找着钥匙，准备开门。
 intro:本部分后面的剧情暂未完成，敬请谅解。|我们随后将进入已经写成的个人线。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeScene:sora1.txt
+changeScene:main1.txt

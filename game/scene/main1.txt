@@ -1,2 +1,6 @@
 {name}:呼——
+{name}:终于到了。
+:我摸索着记忆中的开关位置，打开了灯。
 
+intro:本部分后面的剧情暂未完成，敬请谅解。|我们随后将进入已经写成的个人线。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeScene:sora1.txt
